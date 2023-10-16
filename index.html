@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stopwatch | Nadim Pathan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Stopwatch</h1>
+    <div class="stopwatch">
+        <div class="time" id="display">00:00:00.000</div>
+        <button id="startStop" onclick="startStop()">Start</button>
+        <button id="lap" onclick="recordLap()">Lap</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <div class="lap-times">
+        <h2>Lap Times</h2>
+        <table id="lapTable">
+            <thead>
+                <tr>
+                    <th>Lap</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="lapTimesBody"></tbody>
+        </table>
+        <button id="downloadCsv" onclick="downloadCSV()">Download Lap Times (CSV)</button>
+    </div>
+
+    <div>
+        <p><a href="https://www.linkedin.com/in/nadim-pathan/">Developed By- Nadim Pathan</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

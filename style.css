@@ -1,0 +1,28 @@
+body{
+    background-color: darkgrey;
+}
+.stopwatch {
+    text-align: center;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    color: blueviolet;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font: bold;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
